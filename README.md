@@ -5,13 +5,14 @@ V 1.0
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/gy9vc2z/image.png)
+![App Screenshot](https://i.ibb.co/kB042NL/Captura-de-pantalla-2024-09-08-124737.png)
+<!-- ![App Screenshot](https://i.ibb.co/gy9vc2z/image.png) -->
 
 
 
 ## Authors
 
-- [@natnaelengeda](https://www.github.com/natnaelengeda)
+<!-- - [@natnaelengeda](https://www.github.com/natnaelengeda) -->
 
 
 ## Build With
@@ -45,5 +46,5 @@ To deploy this project run
 
 ## Feedback
 
-If you have any feedback, please reach out to us at nattynengeda@gmail.com
+If you have any feedback, please reach out to us at 
 

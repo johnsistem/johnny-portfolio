@@ -6,13 +6,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 // Firebase
-import { initializeAnalytics } from './lib/firebase';
+//import { initializeAnalytics } from './lib/firebase';
 
 export default function Home() {
 
-  useEffect(() => {
-    initializeAnalytics();
-  }, []);
+  // useEffect(() => {
+  //   initializeAnalytics();
+  // }, []);
 
   return (
     <div className='w-full  relative flex flex-col'>

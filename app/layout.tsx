@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   category: 'Technology',
   description: 'Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs ',
   applicationName: 'Next.js',
-  metadataBase: new URL('https://www.natnaelengeda.tech/'),
+ // metadataBase: new URL('https://www.natnaelengeda.tech/'),
   keywords: [
     'Software Development',
     'Fullstack Development',
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
   authors: [
     {
       name: 'Johnny Quezada',
-      url: 'https://www.natnaelengeda.tech/'
+     // url: 'https://www.natnaelengeda.tech/'
     }
   ],
   publisher: "Johnny Quezada",
   openGraph: {
     title: 'Johnny Quezada',
     description: "Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs ",
-    url: "https://www.natnaelengeda.tech/",
+    //url: "https://www.natnaelengeda.tech/",
     siteName: "Johnny Quezada - Portfolio",
     images: [
       {
@@ -78,7 +78,9 @@ export const metadata: Metadata = {
     yandex: 'yandex',
     yahoo: 'yahoo',
     other: {
-      me: ['nattynengeda@gmail.com', 'https://www.natnaelengeda.tech/']
+      me: ['johnnyqm5@gmail.com',
+       // 'https://www.natnaelengeda.tech/'
+      ]
     }
   },
   appleWebApp: {
