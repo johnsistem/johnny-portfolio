@@ -11,7 +11,7 @@ export default function Portfolio() {
   return (
     <div className="w-full mx-auto container h-auto px-5 md:px-10 flex flex-col gap-5 font-ProductSans py-12 md:py-1">
       <div className="w-full py-2 flex items-center justify-center">
-        <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-fontColor">Portfolio</h1>
+        <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-fontColor">Portafolio</h1>
       </div>
       {/* Websites */}
       <div>
@@ -37,7 +37,7 @@ export default function Portfolio() {
       </div>
 
       {/* Mobile Applications */}
-      <div className=''>
+      {/* <div className=''>
         <div className="w-full py-2 flex items-center justify-start">
           <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">Mobile Applications</h1>
         </div>
@@ -57,10 +57,10 @@ export default function Portfolio() {
             ))
           }
         </div>
-      </div>
+      </div> */}
 
       {/* Shopify Store */}
-      <div className=''>
+      {/* <div className=''>
         <div className="w-full py-2 flex items-center justify-start">
           <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">Shopify Stores</h1>
         </div>
@@ -80,10 +80,10 @@ export default function Portfolio() {
             ))
           }
         </div>
-      </div>
+      </div> */}
 
       {/* Personal Projects */}
-      <div className=''>
+      {/* <div className=''>
         <div className="w-full py-2 flex items-center justify-start">
           <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">Personal Projects</h1>
         </div>
@@ -103,7 +103,7 @@ export default function Portfolio() {
             ))
           }
         </div>
-      </div>
+      </div> */}
 
     </div>
   )

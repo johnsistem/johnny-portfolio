@@ -5,7 +5,7 @@ import SkillBox from './components/SkillBox';
 // Basics
 import html_css_js from '../assets/skills/html-css-js.svg';
 import ts from '../assets/skills/ts.png';
-import python from '../assets/skills/python.png';
+import python from '../assets/skills/tailwind.png';
 import shopify from '../assets/skills/shopify.png';
 // Frameworks
 import reactjs from '../assets/skills/reactjs.svg';
@@ -33,9 +33,7 @@ export default function Skills() {
         </div>
         <div className='w-full md:w-[80%]'>
           <p>
-            {` I'm a skilled Frontend Web Developer with experience in JavaScript and expertise in frameworks/library like Next.js, React.js, Tailwind, Bootstap and MUI. I'm a quick learner
-            and collaborate closely with clients to create efficientm scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to
-            life!`}
+            {` Soy un desarrollador web frontend con experiencia en JavaScript y Frameworks/biblioteca como Next.js, React.js, React Native, Tailwind, Bootstrap, etc.`}
           </p>
         </div>
         <div className='flex flex-col gap-5'>
@@ -51,8 +49,8 @@ export default function Skills() {
                 <div className='flex flex-col md:flex-row md:flex-wrap gap-10 p-2 py-5'>
                   <SkillBox link={'https://www.w3schools.com/html/'} name={'HTML/CSS/JS'} image={html_css_js} />
                   <SkillBox link={'https://www.typescriptlang.org/'} name={'Typescript'} image={ts.src} />
-                  <SkillBox link='https://www.python.org/' name={'Python'} image={python.src} />
-                  <SkillBox link='https://www.python.org/' name={'Shopify'} image={shopify.src} />
+                  <SkillBox link='https://www.python.org/' name={'Tailwind CSS'} image={python.src} />
+                  {/* <SkillBox link='https://www.python.org/' name={'Shopify'} image={shopify.src} /> */}
                 </div>
               </div>
 
@@ -63,7 +61,7 @@ export default function Skills() {
                   <SkillBox link='https://react.dev/' name={'React.js'} image={reactjs} />
                   <SkillBox link='https://nextjs.org/' name={'Next.js'} image={nextjs} />
                   <SkillBox link='https://vuejs.org/' name={'Vue.js'} image={vuejs.src} />
-                  <SkillBox link='https://flutter.dev/' name={'Flutter'} image={flutterimg.src} />
+                  <SkillBox link='https://flutter.dev/' name={'React Native'} image={flutterimg.src} />
                 </div>
                 <div className='h-10'>
                 </div>

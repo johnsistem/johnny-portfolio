@@ -1,20 +1,22 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Natnael Eneda - Skills",
-  description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
+  title: "Johnny Quezada - Skills",
+  description: "Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | React Native ",
   keywords: [
     'Skills',
+    'Habilidades',
     'Website Skills',
     'Reactjs Skills',
+    'React Native Skills',
     'Nodejs Skills',
-    'Vue.js Skills'
+    'Nextjs Skills'
   ],
   openGraph: {
-    title: "Natnael Engeda - Skills",
-    description: "Natnael Engeda - Skills ",
+    title: "Johnny Quezada- Skills",
+    description: "Johnny Quezada - Skills ",
     url: "https://portfolio.alamondai.com/skills",
-    siteName: "Natnael Engeda - Portfolio",
+    siteName: "Johnny Quezada - Portfolio",
     images: [
       {
         url: "/skills-seo-image.jpg",
@@ -25,14 +27,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: 'Natnael Engeda - Skills',
-    description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
-    site: "@NatnaelEngeda",
-    images: ['/skills-seo-image.jpg'],
-    creator: "@NatnaelEngeda",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: 'Johnny Quezada - Skills',
+  //   description: "Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
+  //   site: "@NatnaelEngeda",
+  //   images: ['/skills-seo-image.jpg'],
+  //   creator: "@NatnaelEngeda",
+  // },
 };
 
 export default function RootLayout({

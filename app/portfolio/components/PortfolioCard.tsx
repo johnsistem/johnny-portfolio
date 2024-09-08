@@ -12,12 +12,14 @@ import {
 import {
   SiTailwindcss,
   SiMysql,
+  SiPostgresql,
   SiTypescript,
   SiFlutter,
   SiDart,
   SiFirebase,
   SiExpress,
   SiShopify,
+  SiNestjs,
 } from "react-icons/si";
 
 // import { RiNextjsFill } from "react-icons/ri";
@@ -64,6 +66,10 @@ export default function PortfolioCard({
       return <SiShopify className="text-3xl text-[#7AB55C]" />
     } else if (icon == 'nextjs') {
       return <TbBrandNextjs className="text-3xl text-[#000000]" />
+    } else if (icon == 'postgresql') {
+      return <SiPostgresql className="text-3xl text-[#31648C]" />
+    } else if (icon == 'nestjs') {
+      return <SiNestjs className="text-3xl text-[#E0234E]" />
     }
 
   }

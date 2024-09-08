@@ -25,7 +25,7 @@ export default function Header() {
             />
           </div>
           <h1 className="hidden md:block link-underline text-3xl font-bold font-VT323 text-black">
-            Natnael.Engeda
+            Johnny.Quezada
           </h1>
         </div>
 
@@ -35,17 +35,17 @@ export default function Header() {
               Home
             </NavLinks>
             <NavLinks href="/skills" exact className="normal-header link-underline hover:line-height-normal">
-              Skills
+              Habilidades
             </NavLinks>
             <NavLinks href="/portfolio" exact className="normal-header link-underline hover:line-height-normal">
-              Portfolio
+              Portafolio
             </NavLinks>
             <NavLinks href="/contact" exact className="normal-header link-underline hover:line-height-normal">
-              Contact
+              Contacto
             </NavLinks>
-            <NavLinks href="/resume" exact className="transition px-5 py-4 bg-[#017f6c] rounded-lg text-white hover:bg-transparent border hover:border-[#017f6c] hover:text-[#017f6c] outline-none">
-              Resume
-            </NavLinks>
+            {/* <NavLinks href="/resume" exact className="transition px-5 py-4 bg-[#017f6c] rounded-lg text-white hover:bg-transparent border hover:border-[#017f6c] hover:text-[#017f6c] outline-none">
+              Resumen
+            </NavLinks> */}
           </ul>
         </div>
 

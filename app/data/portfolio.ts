@@ -3,61 +3,61 @@ import fistumImage from '../assets/portolio/fitsum-image.jpg';
 import tomocaImage from '../assets/portolio/tomoca-image.png';
 import angelImage from '../assets/portolio/angel-skin.png';
 import lliImage from '../assets/portolio/lli-image.jpg';
-import coffeeTerminalImage from '../assets/portolio/coffee-terminal-image.jpg';
-import bermelFestImage from "@/app/assets/portolio/bermel-fest-image.jpg";
+import trainmeImage from '../assets/portolio/trainme.png';
+import teacherImage from "@/app/assets/portolio/teacher-pro.png";
 import ethioSalacyCalculatorImage from "@/app/assets/portolio/ethio-salary-calculator.jpg";
 
 export const websitesProjects = [
     {
         id: 1,
-        name: "Coffee Terminal",
+        name: "Trainme",
         color: '#1B1107',
-        image: coffeeTerminalImage,
-        imageDescription: "Coffee Terminal Image",
-        url: "https://www.coffeeterminalet.com/",
-        description: "Coffee Termninal - The Best Coffee Shop in Town...",
-        technologies: ['reactjs', 'nodejs', 'expressjs', 'tailwindcss', 'mysql', 'firebase']
+        image: trainmeImage,
+        imageDescription: "Trainme Image",
+        url: "https://trainme.education/",
+        description: "Aprendizaje en línea integral e innovador",
+        technologies: ['nextjs', 'nodejs', 'expressjs', 'tailwindcss', 'postgresql', 'nestjs', 'graphql', 'aws']
     },
     {
         id: 2,
-        name: "Bermel Fest",
+        name: "Teacher Pro",
         color: '#EA2829',
-        image: bermelFestImage,
-        imageDescription: "Bermel Fest Image",
-        url: "https://et.bermelfest.com/",
-        description: "Bermel Fest - Come and enjoy the best event in Ethiopia!...",
-        technologies: ['nextjs', 'nodejs', 'expressjs', 'tailwindcss', 'mysql', 'firebase']
+        image: teacherImage,
+        imageDescription: "Teacher Pro Image",
+        url: "https://www.teacherspro.com/",
+        description: "La comunidad +PRO de aprendizaje y formación docente",
+        technologies: ['nextjs', 'nodejs', 'expressjs', 'tailwindcss', 'postgresql', 'nestjs', 'graphql', 'aws']
     },
-    {
-        id: 3,
-        name: "Semah MCH",
-        color: '#1f65b1',
-        image: semahImage,
-        imageDescription: "Semah MCH Image",
-        url: "https://www.semahmch.com/",
-        description: "Semah Mother Child Hospital Website for Online Appointment and Medical Information...",
-        technologies: ['reactjs', 'ts', 'nodejs', 'expressjs', 'tailwindcss', 'mysql']
-    },
-    {
-        id: 4,
-        name: "Angel SKin",
-        color: '#d5ac89',
-        image: angelImage,
-        imageDescription: "Angel Skin Image",
-        url: "https://angelskin.vercel.app/",
-        description: "Angel Skin is U.S. Based Website for Online Appointment for Skin Care and Waxing Solutions...",
-        technologies: ['vue.js', 'tailwindcss'],
-    },
-    {
-        id: 5,
-        name: "Fitsum Printing and Advert",
-        color: '#8bc43b',
-        image: fistumImage,
-        imageDescription: "Firstum Printing and Advert Image",
-        url: "https://fitsumpptest.vercel.app/",
-        description: "Fitsum Printing and Advert website for Advertising Products and Ordering Online...",
-        technologies: ['reactjs', 'nodejs', 'expressjs', 'tailwindcss', 'mysql']
-    },
+    // {
+    //     id: 3,
+    //     name: "Semah MCH",
+    //     color: '#1f65b1',
+    //     image: semahImage,
+    //     imageDescription: "Semah MCH Image",
+    //     url: "https://www.semahmch.com/",
+    //     description: "Semah Mother Child Hospital Website for Online Appointment and Medical Information...",
+    //     technologies: ['reactjs', 'ts', 'nodejs', 'expressjs', 'tailwindcss', 'mysql']
+    // },
+    // {
+    //     id: 4,
+    //     name: "Angel SKin",
+    //     color: '#d5ac89',
+    //     image: angelImage,
+    //     imageDescription: "Angel Skin Image",
+    //     url: "https://angelskin.vercel.app/",
+    //     description: "Angel Skin is U.S. Based Website for Online Appointment for Skin Care and Waxing Solutions...",
+    //     technologies: ['vue.js', 'tailwindcss'],
+    // },
+    // {
+    //     id: 5,
+    //     name: "Fitsum Printing and Advert",
+    //     color: '#8bc43b',
+    //     image: fistumImage,
+    //     imageDescription: "Firstum Printing and Advert Image",
+    //     url: "https://fitsumpptest.vercel.app/",
+    //     description: "Fitsum Printing and Advert website for Advertising Products and Ordering Online...",
+    //     technologies: ['reactjs', 'nodejs', 'expressjs', 'tailwindcss', 'mysql']
+    // },
 ]
 
 export const mobileAppsProjects = [

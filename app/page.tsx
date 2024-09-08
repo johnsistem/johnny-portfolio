@@ -21,23 +21,23 @@ export default function Home() {
         {/* First Grid */}
         <div className='flex flex-col gap-10 items-start justify-start  p-5 font-ProductSans text-fontColor'>
           <div className='flex flex-col gap-5'>
-            <h1 className='text-4xl md:text-4xl lg:text-6xl font-bold font-ProductSans '>Natnael Engeda</h1>
+            <h1 className='text-4xl md:text-4xl lg:text-6xl font-bold font-ProductSans '>Johnny.Quezada </h1>
             <p className='text-xl md:text-xl lg:text-3xl font-semibold'>(Software Developer)</p>
             <div>
               <p
                 className='text-lg  lg:text-3xl text-[#6B7385]'>
-                A passionate individual who always thrives to work on end to end products which develop sustainable and highly scalable social and technical systems to create impact.</p>
+                Una persona apasionada que siempre se esfuerza por trabajar en productos de principio a fin que desarrollen sistemas sociales y técnicos sostenibles y altamente escalables para crear impacto.</p>
             </div>
 
             <div className='flex flex-col gap-5'>
               <div>
-                <p className='text-2xl text-fontColor2'>Contact Me: </p>
+                <p className='text-2xl text-fontColor2'>Contácteme: </p>
               </div>
               <div className='flex flex-row px-2 gap-5'>
 
                 {/* Gmail Icon */}
                 <div
-                  onClick={() => window.open('mailto:nattynengeda@gmail.com')}
+                  onClick={() => window.open('mailto:johnnyqm5@gmail.com')}
                   className='rounded-full bg-fontColor w-auto p-2 cursor-pointer'>
                   <Image
                     className='w-6 h-6'
@@ -50,7 +50,7 @@ export default function Home() {
 
                 {/* LinkedIn Icon */}
                 <div
-                  onClick={() => window.open('https://www.linkedin.com/in/natnaelengeda/')}
+                  onClick={() => window.open('https://www.linkedin.com/in/johnny-quezada-844439208/')}
                   className='rounded-full bg-white w-auto p-1 cursor-pointer'>
                   <Image
                     className='w-8 h-8'
@@ -63,7 +63,7 @@ export default function Home() {
 
                 {/* Github Icon */}
                 <div
-                  onClick={() => window.open('https://www.github.com/natnaelengeda')}
+                  onClick={() => window.open('https://github.com/johnsistem')}
                   className='rounded-full bg-white w-auto p- cursor-pointer'>
                   <Image
                     className='w-10 h-10'
@@ -75,7 +75,7 @@ export default function Home() {
                 </div>
 
                 {/* Instagram Icon */}
-                <div
+                {/* <div
                   onClick={() => window.open('https://www.instagram.com/natnaelengeda')}
                   className='rounded-full bg-white w-auto p-1 cursor-pointer'>
                   <Image
@@ -85,7 +85,7 @@ export default function Home() {
                     height={500}
                     alt="Instagram Icon"
                   />
-                </div>
+                </div> */}
               </div>
 
               {/* Projects */}
@@ -93,7 +93,7 @@ export default function Home() {
                 <Link
                   href='/portfolio'
                   className='px-10 py-3 rounded-xl border-4 border-fontColor2 hover:text-white text-ProductSans hover:bg-[#14213D] hover:border-[#14213D]'>
-                  Projects
+                  Proyectos
                 </Link>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function Home() {
         <div className=' flex items-start justify-center py-10'>
           <Image
             className='w-[80%] md:w-full'
-            src="/assets/images/cool_pic.svg"
+            src="/assets/images/dev.jpeg"
             width={500}
             height={500}
             alt="Programmer Image"
@@ -116,7 +116,7 @@ export default function Home() {
         <p>
           <span
             className='text-fontColor2'>
-            Made by </span>&#128512; <span className='font-bold'>Natnael Engeda</span>
+            Made by </span>&#128512; <span className='font-bold'>Johnny Quezada</span>
         </p>
       </div>
     </div>

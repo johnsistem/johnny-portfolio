@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   icons: {
     icon: '/logo.png'
   },
-  title: 'Natnael Engeda',
+  title: 'Johnny Quezada | Portfolio',
   category: 'Technology',
-  description: 'Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter',
+  description: 'Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs ',
   applicationName: 'Next.js',
   metadataBase: new URL('https://www.natnaelengeda.tech/'),
   keywords: [
@@ -20,29 +20,28 @@ export const metadata: Metadata = {
     'Reactjs',
     'Nodejs',
     'Frontend Developer',
-    'Ethiopia Developer',
-    'Flutter Developer',
-    'Software Developer in Ethiopia',
-    'Reactjs Developer in Ethiopia',
-    'Ethiopia',
-    'Natnael Engeda',
-    'Natty Engeda',
-    'Natnael',
-    'Natty',
+    'Nicaragua Developer',
+    'Nestjs Developer',
+    'Software Developer in Nicaragua',
+    'Reactjs Developer in Nicaragua',
+    'Nicaragua',
+    'Johnny Quezada',
+    'John Quezada',
+    
   ],
-  creator: 'Natnael Engeda',
+  creator: 'Johnny Quezada',
   authors: [
     {
-      name: 'Natnael Engeda',
+      name: 'Johnny Quezada',
       url: 'https://www.natnaelengeda.tech/'
     }
   ],
-  publisher: "Natnael Engeda",
+  publisher: "Johnny Quezada",
   openGraph: {
-    title: 'Natnael Engeda',
-    description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
+    title: 'Johnny Quezada',
+    description: "Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs ",
     url: "https://www.natnaelengeda.tech/",
-    siteName: "Natnael Engeda - Portfolio",
+    siteName: "Johnny Quezada - Portfolio",
     images: [
       {
         url: "/seo-image.jpg",
@@ -66,14 +65,14 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     }
   },
-  twitter: {
-    card: "summary_large_image",
-    title: 'Natnael Engeda',
-    description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
-    site: "@NatnaelEngeda",
-    images: ['/seo-image.jpg'],
-    creator: "@NatnaelEngeda",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: 'Natnael Engeda',
+  //   description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
+  //   site: "@NatnaelEngeda",
+  //   images: ['/seo-image.jpg'],
+  //   creator: "@NatnaelEngeda",
+  // },
   verification: {
     google: 'google',
     yandex: 'yandex',
@@ -83,7 +82,7 @@ export const metadata: Metadata = {
     }
   },
   appleWebApp: {
-    title: 'Natnael Engeda',
+    title: 'Johnny Quezada - Portfolio',
     statusBarStyle: 'black-translucent',
     startupImage: [
       '/logo.png'

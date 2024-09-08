@@ -1,23 +1,21 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Natnael Eneda - Projects",
-  description: "Natnael Engeda - Portfolio | Projects",
-  keywords: [
-    'Fitsum Advert and Print',
-    'Semah MCH ',
-    'Angel Skin',
-    'Tomoca App',
+  title: "Johnny Quezada - Projects",
+  description: "Johnny Quezada - Portfolio | Projects",
+  keywords: [    
+    'Teacher pro',
+    'Trainme App',
     'Website Portfolios',
     'Mobile App Portfolios',
     'Website Projects',
     'Mobile App Projects'
   ],
   openGraph: {
-    title: "Natnael Engeda - Projects",
-    description: "Natnael Engeda - Portfolio | Projects",
+    title: "Johnny Quezada - Projects",
+    description: "Johnny Quezada - Portfolio | Projects",
     url: "https://portfolio.alamondai.com/portfolio",
-    siteName: "Natnael Engeda - Portfolio",
+    siteName: "Johnny Quezada - Portfolio",
     images: [
       {
         url: "/portfolio-seo-image.jpg",
@@ -28,14 +26,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: 'Natnael Engeda - Portfolio',
-    description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
-    site: "@NatnaelEngeda",
-    images: ['/portfolio-seo-image.jpg'],
-    creator: "@NatnaelEngeda",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: 'Johnny Quezada - Portfolio',
+  //   description: "Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | React Native ",
+  //   site: "@NatnaelEngeda",
+  //   images: ['/portfolio-seo-image.jpg'],
+  //   creator: "@NatnaelEngeda",
+  // },
 };
 
 export default function RootLayout({

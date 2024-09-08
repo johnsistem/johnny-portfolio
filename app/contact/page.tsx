@@ -6,15 +6,17 @@ import { toast } from 'react-toastify';
 import Image from 'next/image';
 
 // Images 
-import contactMe from '../assets/image/contact-me.png';
+import contactMe from '../assets/image/contact.jpg';
 
 export default function Contact() {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
-  var api = '5758881380:AAHvZKhH78uXTsuJa-b7F987Ii3vxrpRc2A';
+  /* portfolioJohnBot  */
+  var api = '7246501146:AAHn4BEN9Xp872SS5YeXAJFFjRh7at32Ess';
+ // var api = '5758881380:AAHvZKhH78uXTsuJa-b7F987Ii3vxrpRc2A';
 
   const onSubmit = async (data: any) => {
     await axios.post(`https://api.telegram.org/bot${api}/sendMessage`, {
-      chat_id: '359753050',
+      chat_id: '1140073778',
       parse_mode: 'html',
       text: `<b>Name:</b> ${data.name} \n<b>Email:</b> ${data.email} \n<b>Message:</b> ${data.message}`
     }).then((res) => {
@@ -37,7 +39,7 @@ export default function Contact() {
   return (
     <div className='flex flex-col gap-10 items-center justify-center py-12 md:py-10 font-ProductSans'>
       <div>
-        <h1 className=' text-3xl md:text-6xl font-bold '>Contact Me</h1>
+        <h1 className=' text-3xl md:text-6xl font-bold '>Contáctame</h1>
       </div>
       <div className='w-full mx-auto container grid grid-cols-1 md:grid-cols-2'>
 
@@ -55,7 +57,7 @@ export default function Contact() {
         {/* Form */}
         <div className='flex flex-col items-center justify-start gap-10 py-5'>
           <div>
-            <p className='text-2xl md:text-3xl font-bold '>Get in Touch</p>
+            <p className='text-2xl md:text-3xl font-bold '>Ponte en contacto</p>
           </div>
           <form
             onSubmit={handleSubmit(onSubmit)}
