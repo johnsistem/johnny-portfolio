@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Johnny Quezada - Projects",
     description: "Johnny Quezada - Portfolio | Projects",
-    url: "https://portfolio.alamondai.com/portfolio",
+    url: "https://johnny-portfolio-seven.vercel.app/portfolio",
     siteName: "Johnny Quezada - Portfolio",
     images: [
       {
