@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Johnny Quezada - Portfolio",
     images: [
       {
-        url: "/portfolio-seo-image.jpg",
+        url: "/seo-image.png",
         width: 1200,
         height: 630,
       }
