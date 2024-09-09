@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         height: 630,
       }
     ],
-    locale: "en_US",
+    locale: "es_LA",
     type: "website",
   },
   robots: {
