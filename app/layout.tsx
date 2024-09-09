@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/logo.png'
   },
-  title: 'Johnny Quezada | Portfolio',
+  title: 'Johnny Quezada',
   category: 'Technology',
   description: 'Johnny Quezada - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs ',
   applicationName: 'Next.js',
